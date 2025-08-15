@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    margin: 0; 
+    padding: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+}
+
+.drinks-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.drink-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.2s;
+}
+
+drink-btn:hover {
+    background-color: #e2e2e2;
+}
+
+btn-img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.info-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+}
